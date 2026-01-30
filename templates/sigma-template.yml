@@ -1,0 +1,26 @@
+title: [Attack Technique Name]
+id: [Generate UUID when creating real rule]
+status: experimental
+description: [Описание что детектируем]
+references:
+    - https://attack.mitre.org/techniques/TXXXX/
+author: byemoto
+date: YYYY/MM/DD
+modified: YYYY/MM/DD
+tags:
+    - attack.credential_access
+    - attack.tXXXX
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        EventID: XXXX
+        [Field]: 'value'
+    filter:
+        [Field]: 'exclude_value'
+    condition: selection and not filter
+falsepositives:
+    - [False positive 1]
+    - [False positive 2]
+level: high
