@@ -1,2 +1,30 @@
-# soc-detection-rules
-Collection of detection rules for SOC based on practical attack analysis
+## 🎯 SOC Detection Rules Library
+
+Библиотека detection rules на основе практического анализа атак.
+
+## 📊 Статистика
+
+- **Sigma Rules:** 0/25 (цель)
+- **Splunk Queries:** 0/20 (цель)
+- **MITRE ATT&CK:** 0/50 техник (цель)
+
+## 📁 Структура
+```
+soc-detection-rules/
+├── sigma-rules/      # Sigma правила
+├── splunk-queries/   # SPL запросы
+├── docs/             # Документация
+├── research/         # Анализ атак
+└── templates/        # Шаблоны
+```
+
+## 🚀 Roadmap
+
+- [ ] Февраль: Credential Access (5 правил)
+- [ ] Март: Persistence (5 правил)
+- [ ] Апрель: Lateral Movement (5 правил)
+
+---
+
+**Автор:** [@byemoto](https://github.com/byemoto)  
+**Статус:** 🚧 В разработке
