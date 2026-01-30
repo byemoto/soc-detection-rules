@@ -1,0 +1,24 @@
+/*
+ * Detection Rule: [Название атаки]
+ * MITRE ATT&CK: TXXXX
+ * Severity: HIGH/MEDIUM/LOW
+ * Author: byemoto
+ * Date: YYYY-MM-DD
+ * 
+ * Description:
+ * [Описание что детектируем]
+ * 
+ * False Positives:
+ * - [FP 1]
+ * - [FP 2]
+ */
+
+SELECT 
+    event_time,
+    host_name,
+    [поля для выборки]
+FROM [источник логов]
+WHERE 
+    event_id = XXXX
+    AND [условия детекции]
+ORDER BY event_time DESC;

@@ -1,0 +1,26 @@
+# Detection Rule: [Название атаки]
+# MITRE ATT&CK: TXXXX
+# Severity: HIGH/MEDIUM/LOW
+# Author: byemoto
+# Date: YYYY-MM-DD
+
+rule "[Rule_Name]"
+{
+    source: [Windows Security/Sysmon]
+    event_id: XXXX
+    
+    filter:
+        [поле1] = "значение" AND
+        [поле2] != "исключение"
+    
+    severity: HIGH
+    mitre: TXXXX
+    
+    alert:
+        description = "[Описание алерта]"
+        recommendation = "[Рекомендации по реагированию]"
+}
+
+# False Positives:
+# - [FP 1]
+# - [FP 2]
