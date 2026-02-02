@@ -45,3 +45,7 @@ soc-detection-rules/
 
 **Автор:** [@byemoto](https://github.com/byemoto)  
 **Статус:** 🚧 В разработке
+
+## 🔄 Latest Updates
+
+**2025-02-01:** Working on HTB Giveback machine - creating detection rules for CVE-2024-5932 (Give plugin RCE)
