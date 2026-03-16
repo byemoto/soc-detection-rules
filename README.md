@@ -25,4 +25,4 @@
 
 ## Связанные репозитории
 
-**[devsecops-stand](https://github.com/byemoto/devsecops-stand)** — DevSecOps стенд с pipeline сканирования. Часть техник которые детектирую здесь — те же что Semgrep находит в коде там. Интересно смотреть на одну проблему с двух сторон.
+**[devsecops-stand](https://github.com/byemoto/devsecops-stand)** — DevSecOps стенд с pipeline сканирования. Часть техник которые детектирую здесь — те же что Semgrep находит в коде там.
